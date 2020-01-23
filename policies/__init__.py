@@ -1,0 +1,2 @@
+from policies.deepq_state_plus_image_policy import StatePlusImagePolicy
+from policies.deeprq_state_plus_image_lstm_policy import StatePlusImageLstmPolicy

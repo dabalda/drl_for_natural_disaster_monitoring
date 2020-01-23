@@ -1,0 +1,11 @@
+# In some systems, remove Shapely == 1.6.4.post1 from setup.py install_requires and install manually
+-e git+https://github.com/dabalda/deep_rl_for_swarms.git#egg=deep_rl_for_swarms
+# Requires additional setup.py file to install as external library:
+#-e git+https://github.com/dandrino/terrain-erosion-3-ways.git
+# In Windows, remove atari from gym in setup.py install_requires
+-e git+https://github.com/hill-a/stable-baselines.git#egg=stable-baselines # Version 2.5.1 (May 11 2019 11:54)
+-e git+https://github.com/landlab/landlab.git#egg=landlab # Version: May 1 2019 18:05
+image
+tensorflow-gpu==1.9.0
+mpi4py
+numpy
